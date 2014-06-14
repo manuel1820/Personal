@@ -1,0 +1,44 @@
+/* CSS Document */
+
+* {     
+    margin: 0; 
+} 
+html, body{     
+    height: 100%; 
+} 
+
+
+
+#wrapper{    
+    min-height: 100%;     
+    height: auto !important;     
+    height: 100%;     
+    margin: 0 auto -150px; /* el magin-bottom es el valor negativo de     
+    la altura del footer */ 
+}
+
+#admin-footer{
+	background: #e7e7e7;
+	text-align: center;
+	height: 150px;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	background: #e7e7e7;
+	padding: 10px 0;
+	text-align: center;
+	width: 1140px;
+
+}
+#wrap-imagenes-thumbnail-product{
+	clear: both;
+	top: 10px;
+	position: relative;
+}
+
+
+#wrap-imagenes-thumbnail-product .thumbnail > img {
+	height: 200px;
+	width: 200px;
+}

@@ -1,0 +1,505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/04/2014, 07:32:12 PM
+    Author     : manuel
+*/
+
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    min-height: 700px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #C7C7C8;
+    background-size:1000px 768px;
+    color: #285e8e;
+
+}
+
+.menu_sig .n1{
+    position: relative;
+    top: 100px;
+    left: -90px;
+    color:#11891D;
+    text-align: center;
+    font-size: 28px;
+}
+
+.menu_sig p{
+    position: relative;
+    top: 30px;
+    color:#0147DE;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.menu_sig {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    min-height: 900px;
+    max-height: 960px;
+    /*height: 900px;*/
+    min-width: 820px;
+    max-width: 1024px;
+    text-align: center;
+    font-size: 14px;
+    cursor: move;
+    /*background-color: #C7C7C8;*/
+    background-image: url('../img/mundo.jpg');
+    background-repeat:no-repeat;
+    /*background: #396900;*/
+    left: 170px;
+    background-size:820px 900px;
+    max-width: 100%;
+    min-width: 100%;
+    color: #0E6117;
+
+}
+
+.a{
+    position: absolute;
+    right: 90px; 
+    /*float: right;*/
+    text-decoration: activeborder;
+    font-size: 20px;
+    color: seagreen;
+    opacity: 1;
+}
+
+.caja{
+    position: relative;
+    display: block;
+    width: 200px;
+    min-height: 350px;
+    float: left;
+    left: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+
+    /*    position: absolute;
+        height: 80%;
+        width: 80%;
+        left: 100px;
+        top: 100px;
+        background-color: #269abc;
+        background-image: url('../img/pico.jpg');  
+        background-size: 100% 100%;*/
+}
+.caja i.usuario{
+    background: url('../img/pico.jpg')no-repeat;
+    display: block;
+    top: 58px;
+    position: relative;
+    width: 200px;
+    height: 350px;
+
+}
+
+.caja i.lista{
+    background: url('../img/pico.jpg') no-repeat;
+    display: block;
+    top: 30px;
+    position: relative;
+    width: 200px;
+    height: 350px;
+}
+
+.caja i.ele3{
+    background: url('../img/pico.jpg') no-repeat -400px 0px;
+    display: block;
+    top:2px;
+    position: relative;
+    width: 200px;
+    height: 350px;
+}
+
+.fondo-personal{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    min-height: 700px;
+    text-align: center;
+    background-size:1286px 900px;
+    background: #323248;
+}
+.fondo-personal h1{
+    color: white;
+}
+
+.agregar{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    -webkit-transform: scale(1);
+    max-height: 240px;
+    max-width: 240px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    background: url('../img/trabajador.jpg')no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.fondo-personal p{
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    font-size: 16px;
+    color:#534DFD;
+    font-weight:bold;
+}
+
+.editar{
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    -webkit-transform: scale(1);
+    max-height: 240px;
+    max-width: 240px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    background: url('../img/trabajador.jpg')no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.eliminar{
+    position: absolute;
+    left: 680px;
+    top: 150px;
+    -webkit-transform: scale(1);
+    max-height: 240px;
+    max-width: 240px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    background: url('../img/trabajador.jpg')no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.caja_sig{
+    position: relative;
+    display: block;
+    width: 150px;
+    min-height: 150px;
+    float: left;
+    left: 150px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+i.consulta{
+    /*background: url('../img/mapamunic2.jpg') no-repeat -110px 0px;*/
+    /*-webkit-transform: scale(1.6,1.25);*/
+    background:#11891D;
+    display: block;
+    top: 300px;
+    position: relative;
+    left: 50px;
+    width: 150px;
+    min-height:150px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+}
+
+i.carrusel{
+    position: relative;
+    /*background: url('../img/mapamunic2.jpg') no-repeat -330px 0px;*/
+    /*-webkit-transform: scale(1.6,1.25);*/
+    background:#11891D;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    display: block;
+    top: 185px;
+    left: 15px;
+    width: 150px;
+    min-height: 150px;
+}
+i.repo_sig{
+    position: relative;
+    background:#11891D;
+    /*background: url('../img/mapamunic2.jpg') no-repeat -550px 0px;*/
+    /*-webkit-transform: scale(1.6,1.25);*/
+    display: block;
+    top: 80px;
+    left: 15px;
+    width: 150px;
+    min-height: 150px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+}
+
+.mapa{
+    position: relative;
+    background: url('../img/mapamunic.jpg') no-repeat -630px -45px;
+    top: 347px;
+    left: -350px;
+    width: 40px;
+    height: 40px;
+    cursor: move;
+    transition-property: width;
+    transition-property: height;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px; 
+    transition-duration: 2s;
+    -webkit-transition-property: width;
+    -webkit-transition-property: height; /* Safari */
+    -webkit-transition:  2s linear; 
+}
+
+.mapa:hover{
+    /*    position: relative;
+        top: 327px;
+        left: 430px;*/
+    background: url('../img/mapamunic.jpg') no-repeat -120px -35px;
+    -webkit-border-radius:200px; 
+    -webkit-transform: scale(0.8,0.8);
+    -moz-border-radius:100px;
+    width: 590px;
+    height: 530px;
+}
+.mapa p{
+    position: relative;
+    top: -110px;
+    color:#0147DE;
+    font-size: 15px;
+    text-align: center; 
+}
+
+.buscar{
+    position: relative;
+    left: 250px;
+    width: 550px;
+    height: 2700px;
+}
+
+.image{
+    position: relative;
+    left: 70px;
+    top: 5px;
+    max-width: 250px;
+    height: 300px;
+    /*    transition-property: width;
+        transition-property: height;
+        cursor: move;
+        transition-duration: 2s;
+        -webkit-transition-property: width;
+        -webkit-transition-property: height;  Safari 
+        -webkit-transition:  2s linear; */
+}
+/*
+.image:hover{
+    -webkit-border-radius:200px; 
+    -webkit-transform: scale(1.5,1);
+    -moz-border-radius:100px;
+    width: 590px;
+    height: 530px;
+}*/
+
+.table-title{
+    background-color:#0BB714;
+    font-size: 18px;
+    text-align: center;
+}
+.titulo-tabla{
+    /*background-color:#48C84E;*/
+    color: #48C84E;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid green;
+
+}
+.datos{
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.titulo-tabla2{
+    float: left;
+    width: 275px;
+    /*background-color:#48C84E;*/
+    background: white;
+    color: #48C84E;;
+    font-size: 14px;
+    border:1px solid green;
+    text-align: center;
+}
+.datos2{
+    float: left;
+    width: 275px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+
+.titulo-tabla3{
+    float: left;
+    width: 183px;
+    min-height: 42px;
+    /*background-color:#48C84E;*/
+    background: white;
+    color: #48C84E;;
+    font-size: 14px;
+    border:1px solid green;
+    text-align: center;
+}
+.datos3{
+    float: left;
+    width: 183px;
+    height: 55px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.titulo-tabla4{
+    float: left;
+    width: 137px;
+    min-height: 42px;
+    /*background-color:#48C84E;*/
+    background: white;
+    color: #48C84E;;
+    font-size: 14px;
+    border:1px solid green;
+    text-align: center;
+}
+.datos4{
+    float: left;
+    width: 137px;
+    height: 70px;
+    max-height: 95px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.datos4 li{
+    font-size: 10px;
+}
+.datos3 li{
+    font-size: 10px;
+}
+.datos1{
+    float: left;
+    width: 550px;
+    height: 320px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.datosC{
+    float: left;
+    width: 183px;
+    height:95px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.datosC li{
+    font-size: 10px;
+}
+.liz{
+    position: relative;
+    left: -35px;
+    font-size: 10px;
+}
+.lizm{
+    position: relative;
+    left: -50px;
+    font-size: 10px;
+}
+.lid{
+    position: relative;
+    left: 30px;
+    top: -84px;
+    font-size: 10px;
+}
+.lidp{
+    position: relative;
+    left: 30px;
+    top: -58px;
+    font-size: 10px;
+}
+
+i.capa{
+    position: relative;
+    /*background: url('../img/mapamunic2.jpg') no-repeat -330px 0px;*/
+    /*-webkit-transform: scale(1.6,1.25);*/
+    background:#11891D;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    display: block;
+    top: 455px;
+    left: -178px;
+    width: 150px;
+    min-height: 150px;
+}
+
+.datos_codigo1c{
+    float: left;
+    width: 48px;
+    height: 30px;
+    max-height: 95px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+.datos_codigo1l{
+    float: left;
+    width: 62px;
+    height: 30px;
+    max-height: 95px;
+    text-align: center;
+    background-color: white;
+    border:1px solid green;
+}
+
+
+.titulo-codigoc{
+    float: left;
+    color: #48C84E;
+    width: 48px;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid green;
+
+}
+.titulo-codigocc{
+    float: left;
+    color: #48C84E;
+    width: 37px;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid green;
+
+}
+.titulo-codigol{
+    float: left;
+    color: #48C84E;
+    width: 62px;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid green;
+
+}
+.titulo-codigoll{
+    float: left;
+    color: #48C84E;
+    width: 73px;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid green;
+
+}

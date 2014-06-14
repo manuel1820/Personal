@@ -1,0 +1,327 @@
+.view {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+body {
+    width: 100%;
+    min-height: 80%;
+    margin: 0px;
+}
+
+body .titulo{
+    position: relative;
+    width: 1286px;
+    min-height: 650px;
+    margin: 0px;
+    background: url('../img/fondo-home.png');
+    background-repeat:no-repeat;
+    background-size:1286px 700px;
+}
+
+.titulo{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    margin: 0px;
+    background-image: url('../img/fondo-home.png');
+    background-repeat:no-repeat;
+    font-size: 20px;
+    color:#428bca;
+    text-align: center;
+    font-family: "Times New Roman", cursive; font-style: italic;
+    background-size:1024px 700px;
+}
+
+/*quite .titulo*/
+.titulo .caja {
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    /*    width: 71%;
+        height: 100%; */
+    /*background-size:710px 1000px;*/
+    text-align: center;
+    min-height: 450px;
+}
+.view .mask {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.view .info h2 {
+    /*    text-transform: uppercase;*/
+    text-transform:initial;
+    color: #fff;
+    visibility:visible;
+    overflow:auto;
+    /*visibility: hidden;*/
+    /*overflow: hidden;*/
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+    overflow-y: hidden!important;
+    overflow-x: hidden!important;
+    background: transparent;
+    transform: translate(200px, -200px);
+    transition: all 1s ease-in-out;
+}
+.view .info p {
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.titulo .redes {
+    height: 169px;
+    width: 53px;
+    position: absolute;
+    top: 320px;
+    right: 45px;
+}
+.titulo .redes .twitter {
+    background: url('../img/redes.png') no-repeat center 1px;
+    height: 46px;
+    width: 55px;
+}
+.titulo .redes  .face {
+    background: url('../img/redes.png') no-repeat center -43px;
+    height: 43px;
+    width: 55px;
+}
+.titulo .redes  .pinterest {
+    background: url('../img/redes.png') no-repeat center -84px;
+    height: 43px;
+    width: 55px;
+}
+.titulo .redes  .compartir {
+    background: url('../img/redes.png') no-repeat center -126px;
+    height: 43px;
+    width: 55px;
+}
+
+.titulo .title{
+    color:#000099;
+    position: relative;
+    top: 10px;
+    font-size: 32px;
+}
+
+i.lookbook {
+    background: url('../img/pico.jpg') no-repeat;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 450px;
+
+    -webkit-transition-property:width;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-delay:1s;
+
+    transition-property:width;
+    transition-duration:1s;
+    transition-timing-function:linear;
+    transition-delay:1s;
+
+}
+
+i.lookbook .mask { 
+    background-color: rgba(162,210,244, 0.55); 
+    width: 428px;
+    height: 450px;
+    opacity: 0;
+    transform: translate(265px, 145px) rotate(45deg);
+    transition: all 5s ease-in-out;
+}
+i.clients .mask { 
+    background-color: rgba(209,231,244, 0.5); 
+    width: 420px;
+    height: 450px;
+    opacity: 0;
+    transform: translate(65px, 145px) rotate(45deg);
+    transition: all 5s ease-in-out;
+}
+
+i.attention .mask { 
+    background-color: rgba(209,231,244, 0.5); 
+    width: 420px;
+    height: 450px;
+    opacity: 0;
+    transform: translate(65px, 145px) rotate(45deg);
+    transition: all 4s ease-in-out;
+}
+
+i.clients:hover .mask { 
+    opacity:1; 
+    transform: translate(-80px, -125px) rotate(45deg);
+}  
+
+i.attention:hover .mask { 
+    opacity:1; 
+    transform: translate(-80px, -125px) rotate(45deg);
+}  
+
+i.lookbook:hover{  
+    width: 428px;
+}
+i.lookbook:hover .mask { 
+    opacity:1; 
+    transform: translate(-80px, -125px) rotate(45deg);
+}  
+
+i.clients {
+    background: url('../img/virgenpico.jpg-large');
+    background-size: 450px 550px;
+    background-repeat:no-repeat;
+    position: relative;
+    float: left;
+    width: 150px;
+    /*display: block;*/
+    -webkit-transition-property:width;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-delay:1s;
+    -webkit-transform-origin:10% 10%;
+    -webkit-transition:  2s linear;
+    transition: transform 30s linear;
+    min-height: 450px;
+
+    transition-property:width;
+    transition-duration:1s;
+    transition-timing-function:linear;
+    transition-delay:1s;
+}
+i.clients:hover {
+    -webkit-transform: scale(1,1);
+    width: 420px;
+}
+
+i.lookbook .info p{
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.3);*/
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: translate(200px, -200px);
+    transition: all 1s ease-in-out;
+}
+
+i.lookbook:hover .info h2{
+    visibility: visible;
+    color: indigo;
+    transform: translate(0px,0px);
+    transition-delay: 0.3s; 
+}
+
+i.clients:hover .info h2{
+    visibility: visible;
+    color: indigo;
+    transform: translate(0px,0px);
+    transition-delay: 0.3s; 
+}
+
+i.attention:hover .info h2{
+    visibility: visible;
+    color: indigo;
+    transform: translate(0px,0px);
+    transition-delay: 0.3s; 
+}
+
+i.lookbook:hover .info p{
+    visibility:  visible;
+    transition-delay: 0.3s; 
+    color: indigo;
+}
+
+i.clients:hover .info p{
+    visibility:  visible;
+    transition-delay: 0.3s; 
+    color: indigo;
+}
+
+i.attention:hover .info p{
+    visibility:  visible;
+    transition-delay: 0.3s; 
+    color: indigo;
+}
+
+i.attention {
+    background-image:url('../img/2frontino.jpg');
+    background-size: 450px 550px;
+    background-repeat:no-repeat;
+    position: relative;
+    float: left;
+    width: 150px;
+    -webkit-transition-property:width;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:linear;
+    /*-webkit-transition-delay:1s;*/
+    -webkit-transform-origin:10% 10%;
+    -webkit-transition:  2s linear;
+    transition: transform 30s linear;
+    min-height: 450px;
+    max-height: 450px;
+
+    transition-property:width;
+    transition-duration:1s;
+    transition-timing-function:linear;
+    transition-delay:1s;
+}
+i.attention:hover {
+    -webkit-transform: scale(1.02,1);
+    width: 420px;
+}
+
+.titulo .login
+{
+    position: absolute;
+    margin-right: 10px; 
+    left: 1100px;
+    top: 20px;
+    background-size: 30px 20px;
+}
+
+.link{
+    font-size: 16px;
+    color:#000099;
+}
+.titulo .relacionado{
+    position: absolute;
+    height: 450px;
+    width:350px;
+    left: 20px;
+    top: 80px;
+    background:#00208A;
+}
+.titulo .relacionado .link_re{
+    font-size: 17px;
+    color: white;
+}
+.titulo .relacionado p{
+    font-size: 20px;
+    color: #428bca;
+}
